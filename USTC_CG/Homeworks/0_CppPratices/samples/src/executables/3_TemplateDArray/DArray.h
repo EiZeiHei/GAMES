@@ -1,5 +1,8 @@
 #pragma once
 
+#include <iostream>
+#include <assert.h>
+
 // interfaces of Dynamic Array class DArray
 template<class T>
 class DArray {
