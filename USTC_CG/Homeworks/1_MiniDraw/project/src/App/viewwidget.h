@@ -5,6 +5,9 @@
 #include "Shape.h"
 #include "Line.h"
 #include "Rect.h"
+#include "Ellipse.h"
+#include "Polygon.h"
+#include "FreeHand.h"
 
 #include <qevent.h>
 #include <qpainter.h>
@@ -43,5 +46,9 @@ signals:
 public slots:
 	void setLine();
 	void setRect();
+	void setEllipse();
+    void setPolygon();
+    void setFreeHand();
+    void Undo();
 
 };

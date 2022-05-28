@@ -7,5 +7,6 @@ public:
 	Line();
 	~Line();
 
-	void Draw(QPainter& painter);
+public:
+	void Draw(QPainter &paint);
 };

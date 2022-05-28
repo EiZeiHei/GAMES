@@ -8,7 +8,7 @@ Line::~Line()
 {
 }
 
-void Line::Draw(QPainter& painter)
+void Line::Draw(QPainter& paint)
 {
-	painter.drawLine(start, end);
+	paint.drawLine(start.x(), start.y(), end.x(), end.y());
 }
