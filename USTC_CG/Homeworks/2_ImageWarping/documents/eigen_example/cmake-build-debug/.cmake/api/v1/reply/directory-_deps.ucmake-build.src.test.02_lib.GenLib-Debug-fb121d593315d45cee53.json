@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"Ubpa_AddTarget_GDR",
+			"Ubpa_AddTarget"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/ucmake-src/cmake/UbpaTool.cmake",
+			"cmake-build-debug/_deps/ucmake-src/src/test/02_lib/GenLib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 296,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 282,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/eigen_example/lib/UCmake_test_02_lib_GenLibd.lib"
+			],
+			"targetId" : "UCmake_test_02_lib_GenLib::@90ed63cfecd373466772",
+			"targetIndex" : 3,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/ucmake-build/src/test/02_lib/GenLib",
+		"source" : "cmake-build-debug/_deps/ucmake-src/src/test/02_lib/GenLib"
+	}
+}

@@ -1,0 +1,121 @@
+D:\Install\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Install/CLion/bin/ninja/win/ninja.exe -G Ninja -S E:\Git\GAMES\USTC_CG\Homeworks\2_ImageWarping\project -B E:\Git\GAMES\USTC_CG\Homeworks\2_ImageWarping\project\cmake-build-debug
+-- The C compiler identification is MSVC 19.29.30145.0
+-- The CXX compiler identification is MSVC 19.29.30145.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [Project] ImageWarping
+-- [Project] UCmake
+-- include UbpaTool.cmake
+-- include UbpaQt.cmake
+-- include UbpaBasic.cmake
+-- ----------
+-- directories:
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/EMPTY
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/00_Basic
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/02_lib/GenLib
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/02_lib/UseLib
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/UseDll
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/04_Qt/00_hello
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/05_data
+-- ----------
+-- - name: UCmake_EMPTY
+-- - folder : UCmake/
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/EMPTY/EMPTY.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/Test_01_GroupSrcs/0/h_0_0.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/Test_01_GroupSrcs/0/h_0_1.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/Test_01_GroupSrcs/h_0.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/test_02_lib/hello.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/test_03_dll/servant.h
+-- ----------
+-- - name: UCmake_test_00_Basic
+-- - folder : UCmake/test
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/00_Basic/main.cpp
+-- ----------
+-- - name: UCmake_test_01_GroupSrcs
+-- - folder : UCmake/test
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs/0/c_0.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs/0/c_1.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs/main.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/test_01_GroupSrcs/0/h_0_0.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/test_01_GroupSrcs/0/h_0_1.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/test_01_GroupSrcs/h_0.h
+-- ----------
+-- - name: UCmake_test_02_lib_GenLib
+-- - folder : UCmake/test/02_lib
+-- - mode: LIB
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/02_lib/GenLib/hello.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/test_02_lib/hello.h
+-- ----------
+-- - name: UCmake_test_02_lib_UseLib
+-- - folder : UCmake/test/02_lib
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/02_lib/UseLib/main.cpp
+-- - lib:
+--     UCmake_test_02_lib_GenLib
+-- ----------
+-- - name: UCmake_test_03_dll_GenDll
+-- - folder : UCmake/test/03_dll
+-- - mode: DLL
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll/Ubpa_config_servant_dll.in
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll/servant.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/test_03_dll/Ubpa_config_servant_dll.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/include/test_03_dll/servant.h
+-- ----------
+-- - name: UCmake_test_03_dll_UseDll
+-- - folder : UCmake/test/03_dll
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/UseDll/main.cpp
+-- - lib:
+--     UCmake_test_03_dll_GenDll
+-- ----------
+-- - name: UCmake_test_05_data
+-- - folder : UCmake/test
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/_deps/ucmake-src/src/test/05_data/main.cpp
+-- ----------
+-- directories:
+-- - E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App
+-- ----------
+-- - name: ImageWarping_App
+-- - folder : ImageWarping/
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/ImageWidget.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/ImageWidget.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/Warping.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/Warping.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/WarpingIDW.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/WarpingIDW.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/WarpingRBF.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/WarpingRBF.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/main.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/mainwindow.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/mainwindow.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/mainwindow.qrc
+--     E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/mainwindow.ui
+-- - lib:
+--     Qt5::Widgets
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug

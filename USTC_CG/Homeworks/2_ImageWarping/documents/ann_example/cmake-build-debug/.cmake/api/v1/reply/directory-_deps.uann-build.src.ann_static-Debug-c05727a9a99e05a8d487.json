@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"Ubpa_AddTarget"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/ucmake-src/cmake/UbpaBuild.cmake",
+			"cmake-build-debug/_deps/uann-src/src/ann_static/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 341,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "UANN_2_0_0/lib",
+			"paths" : 
+			[
+				"_deps/uann-src/lib/UANN_ann_staticd.lib"
+			],
+			"targetId" : "UANN_ann_static::@c0d14154cb7446ec0f65",
+			"targetIndex" : 2,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/uann-build/src/ann_static",
+		"source" : "cmake-build-debug/_deps/uann-src/src/ann_static"
+	}
+}

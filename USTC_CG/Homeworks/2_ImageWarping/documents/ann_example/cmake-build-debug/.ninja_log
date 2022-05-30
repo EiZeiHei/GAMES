@@ -1,0 +1,24 @@
+# ninja log v5
+24	982	6756016129228951	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/bd_pr_search.cpp.obj	7656b649080afc82
+19	989	6756016129268837	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/bd_fix_rad_search.cpp.obj	b6ba1a495138b351
+0	993	6756016129308727	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/ANN.cpp.obj	75a08fe902f0d827
+990	1669	6756016136137041	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/brute.cpp.obj	94a8f69d3e98b46b
+984	1680	6756016136236781	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/bd_search.cpp.obj	46be6ec5fe598acf
+993	1781	6756016137264028	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/kd_dump.cpp.obj	503d3a457a789f08
+1669	2349	6756016142898973	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/bd_tree.cpp.obj	ba2edbc1b546c0a4
+1681	2362	6756016143038591	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/kd_fix_rad_search.cpp.obj	530b71d877a1302f
+1782	2471	6756016144131919	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/kd_split.cpp.obj	af624bec63815bea
+2349	3029	6756016149751046	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/kd_pr_search.cpp.obj	d34325f863cf7206
+2362	3050	6756016149920582	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/kd_tree.cpp.obj	e2d131aaee1659e1
+2471	3186	6756016151316850	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/kd_search.cpp.obj	cc293eb0f1396b0e
+3050	3640	6756016155830906	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/perf.cpp.obj	d0a2233ce1b2c7a
+3030	3703	6756016156489145	_deps/uann-build/src/ann/CMakeFiles/UANN_ann.dir/kd_util.cpp.obj	c41b9d5c5ae86afd
+3186	3876	6756016158124788	src/test/CMakeFiles/ann_example_test.dir/main.cpp.obj	43f97cebc47906fa
+3703	4504	6756016164154137	_deps/uann-src/bin/UANN_annd.dll	f584fb002af8e620
+3703	4504	6756016164154137	_deps/uann-src/lib/UANN_annd.lib	f584fb002af8e620
+4504	5133	6756016170510649	../bin/ann_example_testd.exe	66f7295e543b7d30
+27	1035	6756018981103108	_deps/uann-build/src/test/CMakeFiles/UANN_test.dir/rand.cpp.obj	92ee6962a4730b62
+1	1061	6756018981382364	_deps/uann-build/src/test/CMakeFiles/UANN_test.dir/ann_test.cpp.obj	6231d4f234b8c318
+1061	2322	6756018992454871	_deps/uann-src/bin/UANN_testd.exe	17abb58e1b26b3e7
+1	835	6756019347149557	_deps/uann-build/src/sample/CMakeFiles/UANN_sample.dir/ann_sample.cpp.obj	36d8ca1bc6c90f22
+836	1496	6756019353503356	_deps/uann-src/bin/UANN_sampled.exe	7b9cfa021804b67

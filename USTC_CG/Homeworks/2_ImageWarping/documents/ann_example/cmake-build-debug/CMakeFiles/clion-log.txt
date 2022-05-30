@@ -1,0 +1,177 @@
+D:\Install\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Install/CLion/bin/ninja/win/ninja.exe -G Ninja -S E:\Git\GAMES\USTC_CG\Homeworks\2_ImageWarping\documents\ann_example -B E:\Git\GAMES\USTC_CG\Homeworks\2_ImageWarping\documents\ann_example\cmake-build-debug
+-- The C compiler identification is MSVC 19.29.30145.0
+-- The CXX compiler identification is MSVC 19.29.30145.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [Project] ann_example
+-- find package: UCMake 0.6.0
+-- UCMake 0.6.0 not found
+-- fetch: https://github.com/Ubpa/UCMake with tag 0.6.0
+-- [Project] UCMake 0.6.0
+-- include UbpaInit.cmake
+-- include UbpaBasic.cmake
+-- include UbpaBuild.cmake
+-- include UbpaDownload.cmake
+-- include UbpaGit.cmake
+-- include UbpaPackage.cmake
+-- include UbpaQt.cmake
+-- include UbpaTool.cmake
+-- include UbpaGit.cmake
+-- include UbpaBuild.cmake
+-- include UbpaDownload.cmake
+-- ----------
+-- - name: UCMake_test_00_Basic
+-- - folder : UCMake/test
+-- - mode: EXE
+-- - sources (private):
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/cmake/UbpaBasic.cmake
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/cmake/UbpaBuild.cmake
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/cmake/UbpaDownload.cmake
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/cmake/UbpaGit.cmake
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/cmake/UbpaInit.cmake
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/cmake/UbpaPackage.cmake
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/cmake/UbpaQt.cmake
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/cmake/UbpaTool.cmake
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/ucmake-src/src/test/00_Basic/main.cpp
+-- ----------
+-- export UCMake_0_6_0
+-- UCMake 0.6.0 build done
+-- start add dependence UANN v0.2.0
+-- find package: UANN 0.2.0
+-- UANN 0.2.0 not found
+-- fetch: https://github.com/Ubpa/UANN with tag 0.2.0
+-- [Project] UANN
+-- find package: UCMake 0.6.0
+-- UCMake 0.6.0 not found
+-- fetch: https://github.com/Ubpa/UCMake with tag 0.6.0
+-- UCMake 0.6.0 build done
+-- ----------
+-- - name: UANN_ann
+-- - folder : UANN/
+-- - mode: SHARED
+-- - sources (private):
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/include/ANN/ANN.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/include/ANN/ANNperf.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/include/ANN/ANNx.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/ANN.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_fix_rad_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_pr_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_tree.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_tree.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/brute.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_dump.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_fix_rad_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_fix_rad_search.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_pr_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_pr_search.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_search.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_split.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_split.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_tree.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_tree.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_util.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_util.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/perf.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/pr_queue.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/pr_queue_k.h
+-- - define (public):
+--   * ANN_NO_RANDOM
+--   * Ubpa_AsDynamic_ANN
+-- - define interface:
+--   * Ubpa_EXPORT_ANN
+-- - inc (public):
+--   * include
+-- - define (public):
+--   * ANN_NO_RANDOM
+--   * Ubpa_AsDynamic_ANN
+-- - define private:
+--   * Ubpa_EXPORT_ANN
+-- - compile option (public):
+--   * /wd4996
+-- ----------
+-- ----------
+-- - name: UANN_ann2fig
+-- - folder : UANN/
+-- - mode: EXE
+-- - sources (private):
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann2fig/ann2fig.cpp
+-- - lib (public):
+--   * UANN_ann
+-- ----------
+-- ----------
+-- - name: UANN_ann_static
+-- - folder : UANN/
+-- - mode: STATIC
+-- - sources (private):
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/ANN.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_fix_rad_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_pr_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_tree.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/bd_tree.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/brute.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_dump.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_fix_rad_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_fix_rad_search.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_pr_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_pr_search.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_search.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_search.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_split.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_split.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_tree.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_tree.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_util.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/kd_util.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/perf.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/pr_queue.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/ann/pr_queue_k.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/include/ANN/ANN.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/include/ANN/ANNperf.h
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/include/ANN/ANNx.h
+-- - inc (public):
+--   * include
+-- ----------
+-- ----------
+-- - name: UANN_sample
+-- - folder : UANN/
+-- - mode: EXE
+-- - sources (private):
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/sample/ann_sample.cpp
+-- - lib (public):
+--   * UANN_ann
+-- ----------
+-- ----------
+-- - name: UANN_test
+-- - folder : UANN/
+-- - mode: EXE
+-- - sources (private):
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/test/ann_test.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/test/rand.cpp
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/src/test/rand.h
+-- - lib (public):
+--   * UANN_ann
+-- ----------
+-- UANN 0.2.0 build done
+-- ----------
+-- - name: ann_example_test
+-- - folder : ann_example/
+-- - mode: EXE
+-- - sources (private):
+--   * E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/src/test/main.cpp
+-- - lib (public):
+--   * Ubpa::UANN_ann
+-- ----------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug

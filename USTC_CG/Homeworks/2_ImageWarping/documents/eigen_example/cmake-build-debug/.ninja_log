@@ -1,0 +1,5 @@
+# ninja log v5
+0	248	6755976426276395	_deps/ucmake-build/src/test/00_Basic/CMakeFiles/UCmake_test_00_Basic.dir/main.cpp.obj	b2a819d33afe41ae
+249	1009	6755976433627193	../bin/UCmake_test_00_Basicd.exe	60ed90cbf6e6ee5d
+0	1911	6755976663445637	src/test/00_LinearEquation/CMakeFiles/eigen_example_test_00_LinearEquation.dir/main.cpp.obj	a05675318ca6cc21
+1915	2720	6755976671178400	../bin/eigen_example_test_00_LinearEquationd.exe	accc1339c6f96cc9

@@ -1,15 +1,7 @@
-Ubpa_GetTargetName(eigen "${PROJECT_SOURCE_DIR}/src/_deps/eigen")
-
-set(libs "${eigen};Qt5::Widgets")
+set(libs "Qt5::Widgets")
 
 if(USE_ANN)
-	list(APPEND libs "Ubpa::UANN_ann")
+	list(APPEND libs "UANN_ann_static")
 endif()
 
-Ubpa_AddTarget(
-  TEST
-  QT
-  MODE EXE
-  LIB
-    ${libs}
-)
+Ubpa_AddTarget(MODE "EXE" QT ON LIBS ${libs})

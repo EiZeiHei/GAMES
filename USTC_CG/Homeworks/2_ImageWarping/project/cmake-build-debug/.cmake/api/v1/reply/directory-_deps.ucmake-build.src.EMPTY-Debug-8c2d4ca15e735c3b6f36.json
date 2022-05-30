@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"Ubpa_AddTarget_GDR",
+			"Ubpa_AddTarget"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/ucmake-src/cmake/UbpaTool.cmake",
+			"cmake-build-debug/_deps/ucmake-src/src/EMPTY/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 228,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/ucmake-src/bin/UCmake_EMPTYd.exe"
+			],
+			"targetId" : "UCmake_EMPTY::@f28bc53b6c5f014902ee",
+			"targetIndex" : 3,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/ucmake-build/src/EMPTY",
+		"source" : "cmake-build-debug/_deps/ucmake-src/src/EMPTY"
+	}
+}

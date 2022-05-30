@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"Ubpa_AddTarget_GDR",
+			"Ubpa_AddTarget"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/ucmake-src/cmake/UbpaTool.cmake",
+			"cmake-build-debug/_deps/ucmake-src/src/test/03_dll/UseDll/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 296,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 282,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/eigen_example/bin/UCmake_test_03_dll_UseDlld.exe"
+			],
+			"targetId" : "UCmake_test_03_dll_UseDll::@dda9dac3ee925b9a1a27",
+			"targetIndex" : 6,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/ucmake-build/src/test/03_dll/UseDll",
+		"source" : "cmake-build-debug/_deps/ucmake-src/src/test/03_dll/UseDll"
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"Ubpa_AddTarget_GDR",
+			"Ubpa_AddTarget"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/ucmake-src/cmake/UbpaTool.cmake",
+			"cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 296,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 282,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/eigen_example/lib/UCmake_test_03_dll_GenDlld.lib"
+			],
+			"targetId" : "UCmake_test_03_dll_GenDll::@f8e7c913edce6b3f070c",
+			"targetIndex" : 5,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/eigen_example/bin/UCmake_test_03_dll_GenDlld.dll"
+			],
+			"targetId" : "UCmake_test_03_dll_GenDll::@f8e7c913edce6b3f070c",
+			"targetIndex" : 5,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/ucmake-build/src/test/03_dll/GenDll",
+		"source" : "cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll"
+	}
+}

@@ -1,0 +1,384 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/uann-src/bin/UANN_annd.dll"
+		},
+		{
+			"path" : "_deps/uann-src/lib/UANN_annd.lib"
+		},
+		{
+			"path" : "_deps/uann-src/bin/UANN_annd.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"Ubpa_AddTarget",
+			"install",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/ucmake-src/cmake/UbpaBuild.cmake",
+			"cmake-build-debug/_deps/uann-src/src/ann/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 341,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 320,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 264,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/wd4996"
+				},
+				{
+					"fragment" : "-std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ANN_NO_RANDOM"
+				},
+				{
+					"define" : "UANN_ann_EXPORTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "Ubpa_AsDynamic_ANN"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "Ubpa_EXPORT_ANN"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug/_deps/uann-src/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "UANN/"
+	},
+	"id" : "UANN_ann::@8ed32d94dfac8b7ab0c7",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "UANN_2_0_0/lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/Ubpa"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "UANN_ann",
+	"nameOnDisk" : "UANN_annd.dll",
+	"paths" : 
+	{
+		"build" : "_deps/uann-build/src/ann",
+		"source" : "cmake-build-debug/_deps/uann-src/src/ann"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				8,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				25
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/include/ANN/ANN.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/include/ANN/ANNperf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/include/ANN/ANNx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/ANN.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/bd_fix_rad_search.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/bd_pr_search.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/bd_search.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/bd_tree.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/bd_tree.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/brute.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_dump.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_fix_rad_search.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_fix_rad_search.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_pr_search.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_pr_search.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_search.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_search.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_split.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_split.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_tree.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_tree.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_util.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/kd_util.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/perf.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/pr_queue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"path" : "cmake-build-debug/_deps/uann-src/src/ann/pr_queue_k.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

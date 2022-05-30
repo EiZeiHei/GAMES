@@ -1,0 +1,393 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2b57fc68eebb78ea6961.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "_deps/ucmake-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build-Debug-368969ece28c2478932c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src"
+				},
+				{
+					"build" : "_deps/ucmake-build/src",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src-Debug-19c500cb86d61f9e85c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src"
+				},
+				{
+					"build" : "_deps/ucmake-build/src/EMPTY",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.EMPTY-Debug-7b15bf633bbbc0eec43d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/EMPTY",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test-Debug-8bc010d51caa0d314f72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test"
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/00_Basic",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.00_Basic-Debug-32c309112a7345db47a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/00_Basic",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/01_GroupSrcs",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.01_GroupSrcs-Debug-ebc82b753e47e34ebeeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/02_lib",
+					"childIndexes" : 
+					[
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.02_lib-Debug-165bc9f935a6bf3922db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/02_lib"
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/02_lib/GenLib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.02_lib.GenLib-Debug-fb121d593315d45cee53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/02_lib/GenLib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/02_lib/UseLib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.02_lib.UseLib-Debug-a190218c72c943882d55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/02_lib/UseLib",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/03_dll",
+					"childIndexes" : 
+					[
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.03_dll-Debug-ad50a72ca0bf386da600.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/03_dll"
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/03_dll/GenDll",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.03_dll.GenDll-Debug-9c48a8ae6b48f21ad5f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/03_dll/UseDll",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.03_dll.UseDll-Debug-dd1a65528d1bc4f0aac9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/03_dll/UseDll",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/test",
+					"childIndexes" : 
+					[
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.test-Debug-f24e00b7602ac2d4a339.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "src/test"
+				},
+				{
+					"build" : "src/test/00_LinearEquation",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.test.00_LinearEquation-Debug-3c8b735200451ee842a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 0,
+					"source" : "src/test/00_LinearEquation",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						13,
+						14,
+						15
+					],
+					"name" : "eigen_example",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "UCmake",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "UCmake_EMPTY::@f28bc53b6c5f014902ee",
+					"jsonFile" : "target-UCmake_EMPTY-Debug-3a0e6754793ea81ab5fd.json",
+					"name" : "UCmake_EMPTY",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UCmake_test_00_Basic::@a041246eaa3b30c198cb",
+					"jsonFile" : "target-UCmake_test_00_Basic-Debug-2852c29d091f7b86c92d.json",
+					"name" : "UCmake_test_00_Basic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UCmake_test_01_GroupSrcs::@8dd2755367738b589d1d",
+					"jsonFile" : "target-UCmake_test_01_GroupSrcs-Debug-8c2c779f83ac8ab95a75.json",
+					"name" : "UCmake_test_01_GroupSrcs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "UCmake_test_02_lib_GenLib::@90ed63cfecd373466772",
+					"jsonFile" : "target-UCmake_test_02_lib_GenLib-Debug-f814748ff89ab3835458.json",
+					"name" : "UCmake_test_02_lib_GenLib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "UCmake_test_02_lib_UseLib::@6bf710966c35ce6b5a8f",
+					"jsonFile" : "target-UCmake_test_02_lib_UseLib-Debug-a0b55a24bb9ec04e9f68.json",
+					"name" : "UCmake_test_02_lib_UseLib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "UCmake_test_03_dll_GenDll::@f8e7c913edce6b3f070c",
+					"jsonFile" : "target-UCmake_test_03_dll_GenDll-Debug-a4be5d5439975d3355b6.json",
+					"name" : "UCmake_test_03_dll_GenDll",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "UCmake_test_03_dll_UseDll::@dda9dac3ee925b9a1a27",
+					"jsonFile" : "target-UCmake_test_03_dll_UseDll-Debug-e5f7d258b72b0f178a83.json",
+					"name" : "UCmake_test_03_dll_UseDll",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "eigen_example_test_00_LinearEquation::@d549b6a23c838d8abccc",
+					"jsonFile" : "target-eigen_example_test_00_LinearEquation-Debug-709fcf8f5e8d9f8eb282.json",
+					"name" : "eigen_example_test_00_LinearEquation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/eigen_example/cmake-build-debug",
+		"source" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/eigen_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

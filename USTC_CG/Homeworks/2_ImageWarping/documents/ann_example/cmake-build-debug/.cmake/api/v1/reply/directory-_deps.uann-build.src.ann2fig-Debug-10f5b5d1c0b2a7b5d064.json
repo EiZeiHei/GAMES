@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/uann-build/src/ann2fig",
+		"source" : "cmake-build-debug/_deps/uann-src/src/ann2fig"
+	}
+}

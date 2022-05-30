@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/src/App/ImageWarping_App_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/src/App",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App",
+	"CMAKE_SOURCE_DIR" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project",
+	"INCLUDE_DIR" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/src/App/ImageWarping_App_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/Resources/images/new.jpg",
+		"E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/Resources/images/save.jpg",
+		"E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/Resources/images/open.jpg"
+	],
+	"LOCK_FILE" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/src/App/CMakeFiles/ImageWarping_App_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "mainwindow" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_mainwindow.cpp",
+	"RCC_EXECUTABLE" : "D:/Install/Qt5/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/cmake-build-debug/src/App/CMakeFiles/ImageWarping_App_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/project/src/App/mainwindow.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,288 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "_deps/ucmake-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build-Debug-af82dc0be719fe0583de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src"
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/00_Basic",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.00_Basic-Debug-c303444886d06461958e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/00_Basic",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "_deps/uann-build",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.uann-build-Debug-fd3b55067bb07abb1420.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/uann-src"
+				},
+				{
+					"build" : "_deps/uann-build/src/ann",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.uann-build.src.ann-Debug-44a6ab2cf0b1aefd3e70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/uann-src/src/ann",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/uann-build/src/ann2fig",
+					"jsonFile" : "directory-_deps.uann-build.src.ann2fig-Debug-10f5b5d1c0b2a7b5d064.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/uann-src/src/ann2fig",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/uann-build/src/ann_static",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.uann-build.src.ann_static-Debug-c05727a9a99e05a8d487.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/uann-src/src/ann_static",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/uann-build/src/sample",
+					"jsonFile" : "directory-_deps.uann-build.src.sample-Debug-1f106d0d12635e75ffb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/uann-src/src/sample",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/uann-build/src/test",
+					"jsonFile" : "directory-_deps.uann-build.src.test-Debug-2901097d2048c6e1d98d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/uann-src/src/test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/test",
+					"jsonFile" : "directory-src.test-Debug-f24e00b7602ac2d4a339.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/test",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						9
+					],
+					"name" : "ann_example",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "UCMake",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "UANN",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "UANN_ann::@8ed32d94dfac8b7ab0c7",
+					"jsonFile" : "target-UANN_ann-Debug-40263802ce336b7609cd.json",
+					"name" : "UANN_ann",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UANN_ann2fig::@12b66dbe06c47ec1e5cc",
+					"jsonFile" : "target-UANN_ann2fig-Debug-585512e8de4368e7a986.json",
+					"name" : "UANN_ann2fig",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UANN_ann_static::@c0d14154cb7446ec0f65",
+					"jsonFile" : "target-UANN_ann_static-Debug-23ed8848e1560472cacd.json",
+					"name" : "UANN_ann_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "UANN_sample::@94327265758b794d969c",
+					"jsonFile" : "target-UANN_sample-Debug-bf7f0866e34db90d7634.json",
+					"name" : "UANN_sample",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "UANN_test::@803c67e6b8a38ffb91e9",
+					"jsonFile" : "target-UANN_test-Debug-0ca95c76ecc5584b3929.json",
+					"name" : "UANN_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "UCMake_test_00_Basic::@a041246eaa3b30c198cb",
+					"jsonFile" : "target-UCMake_test_00_Basic-Debug-054d0fcafbb101c29e27.json",
+					"name" : "UCMake_test_00_Basic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ann_example_test::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ann_example_test-Debug-48ee6fa819e215fd673b.json",
+					"name" : "ann_example_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example/cmake-build-debug",
+		"source" : "E:/Git/GAMES/USTC_CG/Homeworks/2_ImageWarping/documents/ann_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
