@@ -1,0 +1,153 @@
+D:\Install\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Install/CLion/bin/ninja/win/ninja.exe -G Ninja -S E:\Git\GAMES\USTC_CG\Homeworks\7_SimulationTaichi\project -B E:\Git\GAMES\USTC_CG\Homeworks\7_SimulationTaichi\project\cmake-build-debug
+-- The C compiler identification is MSVC 19.29.30145.0
+-- The CXX compiler identification is MSVC 19.29.30145.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [Project] SimulationTaichi
+-- find package: UCMake v0.3.0
+-- UCMake v0.3.0 not found, so fetch it ...
+fetch: https://github.com/Ubpa/UCMake with tag v0.3.0
+-- UCMake v0.3.0 fetch done, building ...
+-- [Project] UCMake 0.3.0
+-- include UbpaTool.cmake
+-- include UbpaGit.cmake
+-- include UbpaBuild.cmake
+-- include UbpaQt.cmake
+-- include UbpaBasic.cmake
+-- include UbpaPackage.cmake
+-- ----------
+-- directories:
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/head_files
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/00_Basic
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/02_lib/GenLib
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/02_lib/UseLib
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/UseDll
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/04_Qt/00_hello
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/05_data
+-- ----------
+-- - name: UCMake_0_3_0_head_files
+-- - folder : UCMake/
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/head_files/EMPTY.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/Test_01_GroupSrcs/0/h_0_0.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/Test_01_GroupSrcs/0/h_0_1.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/Test_01_GroupSrcs/h_0.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/test_02_lib/hello.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/test_03_dll/servant.h
+-- ----------
+-- - name: UCMake_0_3_0_test_00_Basic
+-- - folder : UCMake/test
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/00_Basic/main.cpp
+-- ----------
+-- - name: UCMake_0_3_0_test_01_GroupSrcs
+-- - folder : UCMake/test
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs/0/c_0.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs/0/c_1.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs/main.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/test_01_GroupSrcs/0/h_0_0.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/test_01_GroupSrcs/0/h_0_1.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/test_01_GroupSrcs/h_0.h
+-- ----------
+-- - name: UCMake_0_3_0_test_02_lib_GenLib
+-- - folder : UCMake/test/02_lib
+-- - mode: LIB
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/02_lib/GenLib/hello.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/test_02_lib/hello.h
+-- ----------
+-- - name: UCMake_0_3_0_test_02_lib_UseLib
+-- - folder : UCMake/test/02_lib
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/02_lib/UseLib/main.cpp
+-- - lib:
+--     UCMake_0_3_0_test_02_lib_GenLib
+-- ----------
+-- - name: UCMake_0_3_0_test_03_dll_GenDll
+-- - folder : UCMake/test/03_dll
+-- - mode: DS
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll/servant.cpp
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/test_03_dll/Ubpa_config_dll_servant.h
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/include/test_03_dll/servant.h
+-- ----------
+-- - name: UCMake_0_3_0_test_03_dll_UseDll
+-- - folder : UCMake/test/03_dll
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/03_dll/UseDll/main.cpp
+-- - lib:
+--     UCMake_0_3_0_test_03_dll_GenDll_shared
+-- ----------
+-- - name: UCMake_0_3_0_test_05_data
+-- - folder : UCMake/test
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug/_deps/ucmake-src/src/test/05_data/main.cpp
+-- UCMake_0_3_0
+-- export UCMake_0_3_0
+-- UCMake v0.3.0 build done
+-- ----------
+-- found taichi.h
+-- ----------
+-- directories:
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/app
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/00_mls_mpm88
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/01_mls_mpm88_x
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/02_snowball
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/03_cubes
+-- - E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/04_fountain
+-- ----------
+-- - name: SimulationTaichi_0_0_1_app
+-- - folder : SimulationTaichi/
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/app/main.cpp
+-- ----------
+-- - name: SimulationTaichi_0_0_1_example_00_mls_mpm88
+-- - folder : SimulationTaichi/example
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/00_mls_mpm88/main.cpp
+-- ----------
+-- - name: SimulationTaichi_0_0_1_example_01_mls_mpm88_x
+-- - folder : SimulationTaichi/example
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/01_mls_mpm88_x/main.cpp
+-- ----------
+-- - name: SimulationTaichi_0_0_1_example_02_snowball
+-- - folder : SimulationTaichi/example
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/02_snowball/main.cpp
+-- ----------
+-- - name: SimulationTaichi_0_0_1_example_03_cubes
+-- - folder : SimulationTaichi/example
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/03_cubes/main.cpp
+-- ----------
+-- - name: SimulationTaichi_0_0_1_example_04_fountain
+-- - folder : SimulationTaichi/example
+-- - mode: EXE
+-- - sources:
+--     E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/src/example/04_fountain/main.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug

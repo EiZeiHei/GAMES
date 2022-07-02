@@ -1,0 +1,6 @@
+# ninja log v5
+60	616	6772597429196366	src/TetGene/CMakeFiles/TetGene.dir/predicates.cxx.obj	2b65cd7a1ed6cb4b
+0	779	6772597430692368	src/TetGene/CMakeFiles/TetGene.dir/Tet_generate.cpp.obj	82e3150612423165
+617	1283	6772597436087927	src/TetGene/CMakeFiles/TetGene.dir/main.cpp.obj	322d41eebb03a5e1
+63	1284	6772597436097904	src/TetGene/CMakeFiles/TetGene.dir/tetgen.cxx.obj	829ff817ccb8f03c
+1285	2210	6772597445008350	../bin/TetGened.exe	f603b57b8ce45ce7

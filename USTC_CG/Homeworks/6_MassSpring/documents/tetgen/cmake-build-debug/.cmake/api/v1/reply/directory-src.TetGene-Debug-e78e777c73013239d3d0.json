@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"Ubpa_SetupTarget"
+		],
+		"files" : 
+		[
+			"cmake/UbpaTool.cmake",
+			"src/TetGene/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/bin/TetGened.exe"
+			],
+			"targetId" : "TetGene::@19eabf3981579bf805dd",
+			"targetIndex" : 0,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/TetGene",
+		"source" : "src/TetGene"
+	}
+}

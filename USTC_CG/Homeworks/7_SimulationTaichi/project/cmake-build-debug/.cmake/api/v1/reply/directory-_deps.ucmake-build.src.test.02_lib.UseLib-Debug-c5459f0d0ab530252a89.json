@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/ucmake-build/src/test/02_lib/UseLib",
+		"source" : "cmake-build-debug/_deps/ucmake-src/src/test/02_lib/UseLib"
+	}
+}

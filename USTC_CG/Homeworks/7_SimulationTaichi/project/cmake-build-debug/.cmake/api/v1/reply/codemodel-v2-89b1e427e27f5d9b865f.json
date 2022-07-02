@@ -1,0 +1,455 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "_deps/ucmake-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ucmake-build-Debug-03538618d610e3c1b0bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src"
+				},
+				{
+					"build" : "_deps/ucmake-build/src/head_files",
+					"jsonFile" : "directory-_deps.ucmake-build.src.head_files-Debug-75aaf27dab0c482f8d16.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/head_files",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/00_Basic",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.00_Basic-Debug-c303444886d06461958e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/00_Basic",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/01_GroupSrcs",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.01_GroupSrcs-Debug-d9a60840c0c6eb3cb308.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/01_GroupSrcs",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/02_lib/GenLib",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.02_lib.GenLib-Debug-acf015bea9d458c87ded.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/02_lib/GenLib",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/02_lib/UseLib",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.02_lib.UseLib-Debug-c5459f0d0ab530252a89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/02_lib/UseLib",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/03_dll/GenDll",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.03_dll.GenDll-Debug-8e53f7a8c34df19ba8ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/03_dll/GenDll",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/03_dll/UseDll",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.03_dll.UseDll-Debug-ae2977bd3dac0fc8f73a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/03_dll/UseDll",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/04_Qt/00_hello",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.04_Qt.00_hello-Debug-21a3bf17fa17baf9d7ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/04_Qt/00_hello"
+				},
+				{
+					"build" : "_deps/ucmake-build/src/test/05_data",
+					"jsonFile" : "directory-_deps.ucmake-build.src.test.05_data-Debug-5e7da99959039c5867c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/ucmake-src/src/test/05_data",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "src/app",
+					"jsonFile" : "directory-src.app-Debug-de77eec203e76141027b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/example/00_mls_mpm88",
+					"jsonFile" : "directory-src.example.00_mls_mpm88-Debug-7959132437aec8d692a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/example/00_mls_mpm88",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/example/01_mls_mpm88_x",
+					"jsonFile" : "directory-src.example.01_mls_mpm88_x-Debug-5e37d37e65d8048ff088.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/example/01_mls_mpm88_x",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/example/02_snowball",
+					"jsonFile" : "directory-src.example.02_snowball-Debug-fb0e72786674a20e435e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/example/02_snowball",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/example/03_cubes",
+					"jsonFile" : "directory-src.example.03_cubes-Debug-f2341805c847facef9fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/example/03_cubes",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/example/04_fountain",
+					"jsonFile" : "directory-src.example.04_fountain-Debug-6f86c81571b514abda5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/example/04_fountain",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "SimulationTaichi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "UCMake",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "SimulationTaichi_0_0_1_app::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-SimulationTaichi_0_0_1_app-Debug-19cc2c70994bd2e3d4b4.json",
+					"name" : "SimulationTaichi_0_0_1_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "SimulationTaichi_0_0_1_example_00_mls_mpm88::@bc775036185560dd455f",
+					"jsonFile" : "target-SimulationTaichi_0_0_1_example_00_mls_mpm88-Debug-54635e9efd0174c73529.json",
+					"name" : "SimulationTaichi_0_0_1_example_00_mls_mpm88",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "SimulationTaichi_0_0_1_example_01_mls_mpm88_x::@965d0d7532e4bb376431",
+					"jsonFile" : "target-SimulationTaichi_0_0_1_example_01_mls_mpm88_x-Debug-0a71e7018ac6e608ab2d.json",
+					"name" : "SimulationTaichi_0_0_1_example_01_mls_mpm88_x",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "SimulationTaichi_0_0_1_example_02_snowball::@5d4dae84d3ba4514af18",
+					"jsonFile" : "target-SimulationTaichi_0_0_1_example_02_snowball-Debug-740b121d70be35e9933b.json",
+					"name" : "SimulationTaichi_0_0_1_example_02_snowball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "SimulationTaichi_0_0_1_example_03_cubes::@e357d1e89a905a55be84",
+					"jsonFile" : "target-SimulationTaichi_0_0_1_example_03_cubes-Debug-a687b5672402ebcd5897.json",
+					"name" : "SimulationTaichi_0_0_1_example_03_cubes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "SimulationTaichi_0_0_1_example_04_fountain::@420f4e29ebc80dc3e361",
+					"jsonFile" : "target-SimulationTaichi_0_0_1_example_04_fountain-Debug-2fec4b519655f2f62466.json",
+					"name" : "SimulationTaichi_0_0_1_example_04_fountain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "UCMake_0_3_0_head_files::@1530adf5dea0e014823f",
+					"jsonFile" : "target-UCMake_0_3_0_head_files-Debug-29bf95f9803b2a0bb658.json",
+					"name" : "UCMake_0_3_0_head_files",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "UCMake_0_3_0_test_00_Basic::@a041246eaa3b30c198cb",
+					"jsonFile" : "target-UCMake_0_3_0_test_00_Basic-Debug-edaef3c302d5fe45bb3d.json",
+					"name" : "UCMake_0_3_0_test_00_Basic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "UCMake_0_3_0_test_01_GroupSrcs::@8dd2755367738b589d1d",
+					"jsonFile" : "target-UCMake_0_3_0_test_01_GroupSrcs-Debug-5921f1d00002a95e0e22.json",
+					"name" : "UCMake_0_3_0_test_01_GroupSrcs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UCMake_0_3_0_test_02_lib_GenLib::@90ed63cfecd373466772",
+					"jsonFile" : "target-UCMake_0_3_0_test_02_lib_GenLib-Debug-5e3a17aad541195951f1.json",
+					"name" : "UCMake_0_3_0_test_02_lib_GenLib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UCMake_0_3_0_test_02_lib_UseLib::@6bf710966c35ce6b5a8f",
+					"jsonFile" : "target-UCMake_0_3_0_test_02_lib_UseLib-Debug-718b6d84e28f54492a16.json",
+					"name" : "UCMake_0_3_0_test_02_lib_UseLib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "UCMake_0_3_0_test_03_dll_GenDll_shared::@f8e7c913edce6b3f070c",
+					"jsonFile" : "target-UCMake_0_3_0_test_03_dll_GenDll_shared-Debug-6112519e609da8db29d4.json",
+					"name" : "UCMake_0_3_0_test_03_dll_GenDll_shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "UCMake_0_3_0_test_03_dll_GenDll_static::@f8e7c913edce6b3f070c",
+					"jsonFile" : "target-UCMake_0_3_0_test_03_dll_GenDll_static-Debug-9f0975c892d8080d61f1.json",
+					"name" : "UCMake_0_3_0_test_03_dll_GenDll_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "UCMake_0_3_0_test_03_dll_UseDll::@dda9dac3ee925b9a1a27",
+					"jsonFile" : "target-UCMake_0_3_0_test_03_dll_UseDll-Debug-ee84433cc20677415c1b.json",
+					"name" : "UCMake_0_3_0_test_03_dll_UseDll",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "UCMake_0_3_0_test_05_data::@6eda4869707d278a7533",
+					"jsonFile" : "target-UCMake_0_3_0_test_05_data-Debug-a6a1a023d624d5725879.json",
+					"name" : "UCMake_0_3_0_test_05_data",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project/cmake-build-debug",
+		"source" : "E:/Git/GAMES/USTC_CG/Homeworks/7_SimulationTaichi/project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

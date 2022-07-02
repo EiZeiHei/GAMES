@@ -1,0 +1,30 @@
+D:\Install\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/Install/CLion/bin/ninja/win/ninja.exe -G Ninja -S E:\Git\GAMES\USTC_CG\Homeworks\6_MassSpring\documents\tetgen -B E:\Git\GAMES\USTC_CG\Homeworks\6_MassSpring\documents\tetgen\cmake-build-debug
+-- The C compiler identification is MSVC 19.29.30145.0
+-- The CXX compiler identification is MSVC 19.29.30145.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ----------
+-- mode: EXE
+-- name: TetGene
+-- sources:
+--   E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/Tet_generate.cpp
+--   E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/Tet_generate.h
+--   E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/Vec.h
+--   E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/globalFunctions.h
+--   E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/main.cpp
+--   E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/predicates.cxx
+--   E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/tetgen.cxx
+--   E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/tetgen.h
+-- libs:
+-- ----------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Git/GAMES/USTC_CG/Homeworks/6_MassSpring/documents/tetgen/cmake-build-debug
